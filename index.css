@@ -393,6 +393,11 @@ header{
     height: 25px;
     margin: 0 20px 0 0;
 }
+
+.title{
+    width: auto; 
+    height: 100px;
+}
 /* footer end  */
 
 /* login form start */
@@ -437,7 +442,7 @@ header{
 }
 /* login form end */
 
-@media (max-width: 767px){
+@media (max-width: 810px){
 /* banner start */
     header{
         background-color: rgba(0, 0, 0, 0);
@@ -543,4 +548,195 @@ header{
         
     }
 /* review end */
+}
+
+@media (max-width: 415px){
+
+    html{
+        width: 415px;
+        overflow-x: hidden;
+    }
+
+     /* banner  */
+   .main-text img{
+        width: 200px;
+    }
+
+    .main-text h1{
+        font-size: 18px;
+        line-height: 35px
+        ;
+    }
+
+    .main-text p{
+        margin: auto ;
+        width: 200px;
+    }
+
+    .main-btn{
+        flex-direction: column;
+        width: 50vw;
+        margin: 0 auto;
+    }
+
+    .main-btn .btn{
+        margin: 10px 0;
+        width: 45vw;
+        height: auto;
+        padding: 0;
+    }
+
+        /* news */
+    .news #carousel{
+        width: 400px;
+        margin: auto auto;
+    }
+
+    .carousel-caption h5, p{
+        font-size: smaller;
+    }
+
+    /* gameplay */
+    #gameplay #option{
+        width: 415px;
+    }
+
+    #option ul{
+        padding: 0;
+    }
+
+    #gameplay #character{
+        height: 770px;
+    }
+
+    #gameplay #character img{
+        width: 460px;
+        height: auto;
+        margin: 5vw 0 0 60vw;
+    }
+
+    #gameplay #character #chara-text img{
+        display: block;
+        width: 200px;
+    }
+
+    #gameplay #character #chara-text {
+        margin: 192px 50px 0 50px;
+    }
+
+    /* system */
+    .system{
+        background-image: url("./assets/sr-bg-xsmall.jpg");
+    }
+
+    #system  #title h1{
+        padding: 0 0 0 10vw;
+    }
+
+    #system  #title{
+        padding: 10vw 0;
+    }
+    .res{
+        padding: 10vw 0 0 0;
+    }
+
+    /* review */
+    
+    #review p {
+        font-size: smaller;
+    }
+
+    #review h5{
+        font-weight: bold;
+    }
+
+    /* footer */
+    .top-content > .container > .d-block > .title {
+        width: 70vw;
+        margin-left: 15vw;
+    }
+
+    .top-content .input{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .email {
+        margin: 0 0 2vh 0;
+        width: 20px;
+    }
+
+    .footer .email .input{
+        width: 80vw;
+        margin-left: 10vw;
+    }
+
+    .top-content .btn{
+        margin: 0 auto;
+        width: 50vw;
+        height: 67,5px;
+    }
+
+    .bottom-content{
+        display: none;
+    }
+
+    .bottom-tab-content{
+        overflow-y: hidden;
+        display: block !important;
+        padding: 16vw 0 0 0;
+        
+        width: 100%;
+        height: auto;
+    }
+
+    .bottom-tab-content > .container{
+        padding: 2vw;
+        width:80% ;
+        
+    }
+
+    .logo{
+        width: 25vw;
+        height: auto;
+        
+        margin: 10px auto;
+    }
+
+    .logo img{
+        width:inherit
+    }
+    
+    .bottom-tab-content .group{
+        width: 100%;
+        height: auto;
+        
+        margin: 10px auto 0px auto;
+        font-size: 12px;
+
+    }
+
+    .bottom-tab-content .copyright{
+        width: 42vw;
+        height: auto;
+        margin: 0 auto 15px auto;
+        
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .bottom-tab-content .flex-contact{
+        width: 47vw;
+        height: auto;
+        
+        margin: 0 auto;
+        justify-content: space-evenly;
+    }
+
+    .bottom-tab-content svg{
+        color: white;
+        width: 7vw;
+        height: 7vw;
+        margin: 0 10px;
+    }
 }

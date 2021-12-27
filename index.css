@@ -203,7 +203,7 @@ header{
 
 #option{
     width: 720px;
-    padding:80px 0;
+    padding:70px 0;
     margin: 0 100px;
 }
 
@@ -486,6 +486,7 @@ header{
     }
 
     .gameplay #character img{
+        height: 690px;
         opacity: 0.7;
         position: absolute;
         margin-left: 158px;
@@ -493,6 +494,8 @@ header{
 
     .gameplay #character #chara-text img{
         opacity: 1;
+        width:370px !important;
+        height: auto;
         position: relative;
         margin-left: 0px;
     }

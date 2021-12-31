@@ -486,7 +486,7 @@ header{
     }
 
     .gameplay #character img{
-        height: 690px;
+        height: 745px;
         opacity: 0.7;
         position: absolute;
         margin-left: 158px;
@@ -609,7 +609,9 @@ header{
     }
 
     #gameplay #character{
+        width: 415px;
         height: 770px;
+        overflow-x: hidden;
     }
 
     #gameplay #character img{

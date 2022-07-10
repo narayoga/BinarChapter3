@@ -1,5 +1,7 @@
 # BinarChapter3
 
+preview website: https://fantastic-lamington-c9184e.netlify.app/
+
 it's contain submission challenge for Binar Academy full-stack web chapter 3<br>
 <strong>what's feature inside:</strong>
 <br>+ semantic web (header, login form, landing, 4 section & footer)
